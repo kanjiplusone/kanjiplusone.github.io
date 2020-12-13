@@ -1,0 +1,64 @@
+.sod {
+  margin-bottom: 15px;
+}
+
+.social {
+  margin-top: 0.5rem!important;
+}
+
+.ksvg svg {
+  background-image: url('/img/grid.png');
+  background-size: cover;
+  display: inline-block;
+  top: 0;
+  left: 0;
+/*
+  width: 96%;
+  height: 96%;
+*/
+  margin: 2px;
+}
+
+.ksvg svg path {
+  stroke: #020202;
+  stroke-width: 3.5;
+  stroke-linecap: butt;
+}
+
+.ksvg svg text {
+  display: none;
+}
+
+.kgkys {
+  background-image: url("/img/grid-small.png");
+  background-size: cover;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+}
+
+.kgkys span {
+  font-size: 40px;
+  border: 1px solid #60bf60;
+  height: 100%; 
+}
+
+span.header {
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+}
+
+.acknowledgement ul {
+  font-size: 0.725em;
+}
+
+.copyright {
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+footer {
+  margin-top: 1.75em;
+  padding: 4rem 0;
+  background-color: #f8f8f8;
+}
