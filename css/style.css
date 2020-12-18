@@ -6,6 +6,11 @@
   margin-top: 0.5rem!important;
 }
 
+.form-control:focus {
+  border-color: #60bf60;
+  box-shadow: 0 0 0 0.2rem rgba(96, 191, 96, 0.25);
+}
+
 .ksvg svg {
   background-image: url('/img/grid.png');
   background-size: cover;
